@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Category Tab</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Main flex container -->
+      <div class="row">
+        <!------------------------ Left container ------------------------->
+
+        <div class="product-imgs">
+          <div class="img-display">
+            <!------------------------ Image slider ------------------------->
+            <div class="img-showcase">
+              <img
+                src="product_images/product1.jpg"
+                alt="Product image"
+                class="main-image"
+              />
+              <img src="product_images/product2.jpg" alt="Product image" />
+              <img src="product_images/product3.jpg" alt="Product image" />
+              <img src="product_images/product1.jpg" alt="Product image" />
+            </div>
+          </div>
+          <!------------------------ Image selector ------------------------->
+          <div class="img-select">
+            <div class="img-item">
+              <a href="#" data-id="1">
+                <img src="product_images/product1.jpg" alt="Product image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="2">
+                <img src="product_images/product2.jpg" alt="Product image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="3">
+                <img src="product_images/product3.jpg" alt="Product image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="4">
+                <img src="product_images/product1.jpg" alt="Product image" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------------- Right container ------------------------------------->
+        <div class="product-content">
+          <!------------ 1st -------------->
+          <div>
+            <div class="light-header">Marmeto</div>
+            <div class="header-1__black">Embrace Sideboard</div>
+          </div>
+          <hr />
+          <!----------------- 2nd ---------->
+          <div>
+            <div class="price-container">
+              <div class="header-1__blue">$12999.00</div>
+              <div class="discount">35%</div>
+            </div>
+            <div class="price-cut">$19999.00</div>
+          </div>
+          <hr />
+          <!----------------- 3nd ------------>
+          <div class="product-item-container">
+            <div class="light-header">Choose a Color</div>
+            <div class="color-container">
+              <div
+                class="color-item"
+                data-color="yellow"
+                style="background-color: #fed7aa"
+              ></div>
+              <div
+                class="color-item"
+                data-color="blue"
+                style="background-color: #d9f99d"
+              ></div>
+              <div
+                class="color-item"
+                data-color="green"
+                style="background-color: #c7d2fe"
+              ></div>
+              <div
+                class="color-item"
+                data-color="red"
+                style="background-color: #fbcfe8"
+              ></div>
+            </div>
+          </div>
+          <hr />
+          <!------------------- 4th ------------->
+          <div class="product-item-container">
+            <div class="light-header">Choose a size</div>
+            <div class="size-container">
+              <div class="radio-container">
+                <input type="radio" id="small" name="size" value="Small" />
+                <label for="small">Small</label>
+              </div>
+              <div class="radio-container">
+                <input type="radio" id="medium" name="size" value="Medium" />
+                <label for="medium">Medium</label>
+              </div>
+              <div class="radio-container">
+                <input type="radio" id="large" name="size" value="Large" />
+                <label for="large">Large</label>
+              </div>
+              <div class="radio-container">
+                <input
+                  type="radio"
+                  id="extra-large"
+                  name="size"
+                  value="Extra Large"
+                />
+                <label for="extra-large">Extra Large</label>
+              </div>
+              <div class="radio-container">
+                <input type="radio" id="xxl" name="size" value="XXL" />
+                <label for="xxl">XXL</label>
+              </div>
+            </div>
+            <div class="product-button-container">
+              <div class="add-remove">
+                <button
+                  class="add-remove-button decrease"
+                  style="color: #6b7280"
+                >
+                  -
+                </button>
+                <div class="value">1</div>
+                <button
+                  class="add-remove-button increase"
+                  style="color: #1e3a8a"
+                >
+                  +
+                </button>
+              </div>
+
+              <button class="cart-button">
+                <i class="fas fa-shopping-bag"></i> Add to cart
+              </button>
+            </div>
+          </div>
+          <hr />
+          <!------------------- 5th -------------------------->
+          <div class="description">
+            The Embrace Sideboard is a stylish wear. With a top cloth designed
+            to provide superior protection and look great, this storage solution
+            is both functional and attractive. It fits seamlessly into any home
+            decor, with clean lines and a timeless look. Crafted from premium
+            materials for a combination of style, durability, and reliability.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+  </body>
+</html>
